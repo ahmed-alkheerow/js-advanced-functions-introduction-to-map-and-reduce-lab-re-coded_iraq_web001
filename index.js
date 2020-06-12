@@ -42,12 +42,12 @@ function reduceToAllTrue(sourceArray) {
   let truthy = true;
   sourceArray.forEach(element =>{
     if (!element) {
-      return false 
-      
+      return false
+
     } else {
-      return truthy; 
-      
+      return truthy;
+
     }
   })
-  
+
 }
