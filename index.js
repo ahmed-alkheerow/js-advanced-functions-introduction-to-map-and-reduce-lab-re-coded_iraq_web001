@@ -36,5 +36,5 @@ function reduceToTotal(sourceArray, startingPoint=0 ) {
     total += element
   })
   return total;
-  
+
 }
