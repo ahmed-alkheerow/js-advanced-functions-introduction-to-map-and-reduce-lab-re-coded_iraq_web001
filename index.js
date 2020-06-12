@@ -44,9 +44,8 @@ function reduceToAllTrue(sourceArray) {
     if (!element) {
       return truthy = false
 
-    } else {
-      return truthy;
-    }
+    } 
   })
+  return truthy 
 
 }
