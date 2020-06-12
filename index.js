@@ -30,11 +30,24 @@ function mapToSquare(sourceArray) {
 
 
 
-function reduceToTotal(sourceArray, startingPoint=0 ) {
+function reduceToTotal(sourceArray, startingPoint = 0 ) {
   let total =  startingPoint;
   sourceArray.forEach(element =>{
     total += element
   })
   return total;
+}
 
+function reduceToAllTrue(sourceArray) {
+  let truthy = true;
+  sourceArray.forEach(element =>{
+    if (!element) {
+      return false 
+      
+    } else {
+      return truthy; 
+      
+    }
+  })
+  
 }
