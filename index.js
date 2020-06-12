@@ -4,5 +4,5 @@ function mapToNegativize(sourceArray){
   return sourceArray.map(element => {
     newarry.push(element*-1)}
   )
-  
+
 };
