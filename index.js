@@ -46,11 +46,11 @@ function reduceToAllTrue(sourceArray) {
 
     }
   })
-  return truthy 
+  return truthy
 }
 
 function reduceToAnyTrue(sourceArray) {
-  let truthy = false 
+  let truthy = false
   return truthy  
-  
+
 }
