@@ -52,7 +52,7 @@ function reduceToAllTrue(sourceArray) {
 function reduceToAnyTrue(sourceArray) {
   let truthy = false
   sourceArray.forEach(element =>{
-    if (element = true) {
+    if (element) {
       return truthy = true
 
     }
