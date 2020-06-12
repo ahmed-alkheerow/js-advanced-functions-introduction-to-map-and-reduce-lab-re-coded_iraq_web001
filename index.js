@@ -16,5 +16,5 @@ function mapToDouble(sourceArray) {
     newArry.push(element*2)
   })
   return newArry
-  
+
 }
