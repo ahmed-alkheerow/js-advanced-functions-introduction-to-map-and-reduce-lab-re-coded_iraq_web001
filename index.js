@@ -47,5 +47,10 @@ function reduceToAllTrue(sourceArray) {
     }
   })
   return truthy 
+}
 
+function reduceToAnyTrue(sourceArray) {
+  let truthy = false 
+  return truthy  
+  
 }
