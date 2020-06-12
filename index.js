@@ -18,3 +18,11 @@ function mapToDouble(sourceArray) {
   return newArry
 
 }
+function mapToSquare(sourceArray) {
+  let newArry=[]
+  sourceArray.map(element => {
+    newArry.push(element**2)
+  })
+  return newArry
+
+}
