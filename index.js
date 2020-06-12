@@ -1,8 +1,8 @@
 // Your code here
 function mapToNegativize(sourceArray){
   let newarry = [];
-  return sourceArray.map(element => {
+   sourceArray.map(element => {
     newarry.push(element*-1)}
   )
-
+return newarry;
 };
