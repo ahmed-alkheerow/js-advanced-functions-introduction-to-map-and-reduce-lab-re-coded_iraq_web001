@@ -54,9 +54,9 @@ function reduceToAnyTrue(sourceArray) {
   sourceArray.forEach(element =>{
     if (element = true) {
       return truthy = true
-      
+
     }
   })
-  return truthy  
+  return truthy
 
 }
